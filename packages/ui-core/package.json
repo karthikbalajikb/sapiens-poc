@@ -1,0 +1,13 @@
+{
+  "name": "@sapiens/ui-core",
+  "version": "1.0.0",
+  "main": "lib/index.js",
+  "author": "kb",
+  "license": "MIT",
+  "scripts": {
+    "start": "parcel src",
+    "build": "parcel build src/index.ts",
+    "build:tsc": "tsc",
+    "develop": "tsc -w"
+  }
+}
